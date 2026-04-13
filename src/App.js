@@ -9,7 +9,7 @@ import Services from './Components/Services';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/LABORATORIO-DE-SIMULACAO-E-PROTOTIPAGEM-AP02">
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/Auth" element={<Auth />} />
