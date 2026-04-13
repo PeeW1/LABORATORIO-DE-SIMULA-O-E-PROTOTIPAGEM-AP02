@@ -2,7 +2,7 @@
   "name": "barbperfil",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://peew1.github.io/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/",
+  "homepage": "https://peew1.github.io/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/barbperfil",
   
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
