@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/static/css/main.1ba0845c.css",
-    "main.js": "/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/static/js/main.99da66cf.js",
-    "static/js/453.667870d2.chunk.js": "/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/static/js/453.667870d2.chunk.js",
-    "index.html": "/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/index.html",
-    "main.1ba0845c.css.map": "/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/static/css/main.1ba0845c.css.map",
-    "main.99da66cf.js.map": "/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/static/js/main.99da66cf.js.map",
-    "453.667870d2.chunk.js.map": "/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/static/js/453.667870d2.chunk.js.map"
+    "main.css": "/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/barbperfil/static/css/main.1ba0845c.css",
+    "main.js": "/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/barbperfil/static/js/main.11db446f.js",
+    "static/js/453.667870d2.chunk.js": "/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/barbperfil/static/js/453.667870d2.chunk.js",
+    "index.html": "/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/barbperfil/index.html",
+    "main.1ba0845c.css.map": "/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/barbperfil/static/css/main.1ba0845c.css.map",
+    "main.11db446f.js.map": "/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/barbperfil/static/js/main.11db446f.js.map",
+    "453.667870d2.chunk.js.map": "/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/barbperfil/static/js/453.667870d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ba0845c.css",
-    "static/js/main.99da66cf.js"
+    "static/js/main.11db446f.js"
   ]
 }
