@@ -41,7 +41,7 @@ function Main() {
             </div> 
         </header>
         <main className='w-full h-screen'>
-            <div className= "w-full h-80  bg-cover bg-center flex items-center justify-start lg:h-[80vh]" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/main-bg.jpg)`}}>
+            <div className= "w-full h-80  bg-cover bg-center flex items-center justify-start lg:h-[80vh]" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}'/assets/main-bg.jpg)`}}>
                 <div className=' w-1/2 ml-4 flex flex-col items-start justify-center  gap-6'> 
                     <div>
                         <label className='text-3xl text-white font-bold mb-4 lg:text-9xl'>Bem-vindo à Barbearia Perfil</label>
