@@ -57,13 +57,13 @@ function Main() {
                 <label className='text-2xl text-white font-bold'>Nossos Serviços</label>
             </div>
             <div className='w-full h-auto flex flex-col bg-[var(--secondary-color)] items-center justify-center p-4 gap-4 lg:flex-col lg:gap-6 overflow-hidden '>
-                <div className='w-full h-60 lg:h-80 lg:w-1/3 bg-[var(--primary-color)] rounded-lg flex items-start justify-end p-3 bg-cover transition-transform duration-700 hover:scale-105' style={{ backgroundImage: `url('/assets/corte1.jpg')` }}>
+                <div className='w-full h-60 lg:h-80 lg:w-1/3 bg-[var(--primary-color)] rounded-lg flex items-start justify-end p-3 bg-cover transition-transform duration-700 hover:scale-105' style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/corte1.jpg')` }}>
                     <label className='text-2xl text-white font-bold'>Corte de Cabelo</label>
                 </div>
-                <div className='w-full h-60 lg:h-80 lg:w-1/3 bg-[var(--primary-color)] rounded-lg flex items-start justify-end p-3 bg-cover bg-center transition-transform duration-700 hover:scale-105'  style={{ backgroundImage: `url('/assets/barba1.jpg')` }}>
+                <div className='w-full h-60 lg:h-80 lg:w-1/3 bg-[var(--primary-color)] rounded-lg flex items-start justify-end p-3 bg-cover bg-center transition-transform duration-700 hover:scale-105'  style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/barba1.jpg')` }}>
                     <label className='text-2xl text-white font-bold'>Barba</label>
                 </div>
-                <div className='w-full h-60 lg:h-80 lg:w-1/3 bg-[var(--primary-color)] rounded-lg flex  items-start justify-end  p-3 bg-cover bg-center transition-transform duration-700 hover:scale-105' style={{ backgroundImage: `url('/assets/wash.jpg')` }}>
+                <div className='w-full h-60 lg:h-80 lg:w-1/3 bg-[var(--primary-color)] rounded-lg flex  items-start justify-end  p-3 bg-cover bg-center transition-transform duration-700 hover:scale-105' style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/wash.jpg')` }}>
                     <label className='text-2xl text-white font-bold'>Hidratação</label>
                 </div>
             </div>
