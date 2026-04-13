@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ba0845c.css",
-    "main.js": "/static/js/main.6929672e.js",
-    "static/js/453.667870d2.chunk.js": "/static/js/453.667870d2.chunk.js",
-    "index.html": "/index.html",
-    "main.1ba0845c.css.map": "/static/css/main.1ba0845c.css.map",
-    "main.6929672e.js.map": "/static/js/main.6929672e.js.map",
-    "453.667870d2.chunk.js.map": "/static/js/453.667870d2.chunk.js.map"
+    "main.css": "/PeeW1/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/static/css/main.1ba0845c.css",
+    "main.js": "/PeeW1/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/static/js/main.bab396a9.js",
+    "static/js/453.667870d2.chunk.js": "/PeeW1/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/static/js/453.667870d2.chunk.js",
+    "index.html": "/PeeW1/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/index.html",
+    "main.1ba0845c.css.map": "/PeeW1/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/static/css/main.1ba0845c.css.map",
+    "main.bab396a9.js.map": "/PeeW1/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/static/js/main.bab396a9.js.map",
+    "453.667870d2.chunk.js.map": "/PeeW1/LABORATORIO-DE-SIMULA-O-E-PROTOTIPAGEM-AP02/static/js/453.667870d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ba0845c.css",
-    "static/js/main.6929672e.js"
+    "static/js/main.bab396a9.js"
   ]
 }
