@@ -11,7 +11,7 @@ function Main() {
         <header className="w-full h-20 flex items-center  bg-[var(--primary-color)]  lg:h-36 lg:justify-center lg:gap-4 p-4">
             <div className='w-[45%] lg:hidden'>
                 <button onClick={() => navigate('/Menu')}>
-                    <img src={'/assets/menuhamburger.svg'} alt="Menu Hamburger" className="h-10" />
+                    <img src={`${process.env.PUBLIC_URL}/assets/menuhamburger.svg`} alt="Menu Hamburger" className="h-10" />
                 </button>
             </div>
             <div className='hidden lg:flex'>
@@ -26,7 +26,7 @@ function Main() {
             </div>    
             <div className='lg:justify-center flex justify-start'>
                 <button onClick={() => navigate('/')}>
-                    <img src={'/assets/LogoPerfil.png'} alt="Logo da Barbearia Perfil" className="h-14 lg:h-32" />
+                    <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="h-14 lg:h-32" />
                 </button>  
             </div>
             <div className='hidden lg:flex'> 
@@ -46,7 +46,7 @@ function Main() {
                     <div>
                         <label className='text-3xl text-white font-bold mb-4 lg:text-9xl'>Bem-vindo à Barbearia Perfil</label>
                     </div>
-                    <div>
+                    <div>t 
                         <button className='bg-white hover:bg-[var(--secundary-color)] text-[var(--primary-color)] hover:text-white font-bold py-2 px-2 rounded lg:px-20 lg:py-8 text-3xl' onClick={() => navigate('/Auth')}>
                             Agendar
                         </button>
@@ -72,14 +72,14 @@ function Main() {
             </div>
             <div className='w-full h-auto items-center bg-[var(--secondary-color)] justify-center overflow-hidden p-4 grid grid-cols-2 gap-x-2 md:flex lg:flex lg:flex-row'>
                 <div className='flex flex-col items-center justify-center gap-2'>
-                    <img src={'/assets/produtos/produto1.png'} alt="Produto 1" className='w-full h-auto border-4 border-[var(--primary-color)] lg:w-auto  transition-transform duration-700 hover:scale-105'/>
-                    <img src={'/assets/produtos/produto2.png'} alt="Produto 2" className='w-full h-auto border-4 border-[var(--primary-color)] lg:w-auto   transition-transform duration-700 hover:scale-105' />
-                    <img src={'/assets/produtos/produto3.png'} alt="Produto 3" className='w-full h-auto border-4 border-[var(--primary-color)] lg:w-auto   transition-transform duration-700 hover:scale-105' />
+                    <img src={`${process.env.PUBLIC_URL}/assets/produtos/produto1.png`} alt="Produto 1" className='w-full h-auto border-4 border-[var(--primary-color)] lg:w-auto  transition-transform duration-700 hover:scale-105'/>
+                    <img src={`${process.env.PUBLIC_URL}/assets/produtos/produto2.png`} alt="Produto 2" className='w-full h-auto border-4 border-[var(--primary-color)] lg:w-auto   transition-transform duration-700 hover:scale-105' />
+                    <img src={`${process.env.PUBLIC_URL}/assets/produtos/produto3.png`} alt="Produto 3" className='w-full h-auto border-4 border-[var(--primary-color)] lg:w-auto   transition-transform duration-700 hover:scale-105' />
                 </div>
                 <div className='flex flex-col items-center justify-center gap-2'>
-                    <img src={'/assets/produtos/produto4.png'} alt="Produto 4" className='w-full h-auto border-4 border-[var(--primary-color)] lg:w-auto   transition-transform duration-700 hover:scale-105' />
-                    <img src={'/assets/produtos/produto5.png'} alt="Produto 5" className='w-full h-auto border-4 border-[var(--primary-color)] lg:w-auto   transition-transform duration-700 hover:scale-105' />
-                    <img src={'/assets/produtos/produto6.png'} alt="Produto 6" className='w-full h-auto border-4 border-[var(--primary-color)] lg:w-auto   transition-transform duration-700 hover:scale-105' />
+                    <img src={`${process.env.PUBLIC_URL}/assets/produtos/produto4.png`} alt="Produto 4" className='w-full h-auto border-4 border-[var(--primary-color)] lg:w-auto   transition-transform duration-700 hover:scale-105' />
+                    <img src={`${process.env.PUBLIC_URL}/assets/produtos/produto5.png`} alt="Produto 5" className='w-full h-auto border-4 border-[var(--primary-color)] lg:w-auto   transition-transform duration-700 hover:scale-105' />
+                    <img src={`${process.env.PUBLIC_URL}/assets/produtos/produto6.png`} alt="Produto 6" className='w-full h-auto border-4 border-[var(--primary-color)] lg:w-auto   transition-transform duration-700 hover:scale-105' />
                 </div>
             </div>
             <div className='w-full h-auto flex flex-col items-center justify-center bg-[var(--primary-color)] p-4'>
@@ -92,18 +92,18 @@ function Main() {
             </div>
             <footer className='w-full h-auto flex  items-center justify-center lg:justify-around bg-[var(--primary-color)] p-4'>
             <div>
-                <img src={'/assets/LogoPerfil.png'} alt="Logo da Barbearia Perfil" className="w-20 h-14 lg:h-20 " />
+                <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="w-20 h-14 lg:h-20 " />
             </div>
             <div>
                 <p className='text-center text-sm text-gray-400 mb-4'>© 2024 Barbearia Perfil. Todos os direitos reservados.</p>
                 <div className='flex items-center justify-center gap-4'>
-                <img src={'/assets/whatsapp.svg'} alt="Logo da Barbearia Perfil" className="border border-white bg-[var(--secondary-color)] rounded-2xl p-1 w-8 h-8 lg:w-16 lg:h-16 lg:rounded-full lg:p-3" />
-                <img src={'/assets/instagram.svg'} alt="Logo da Barbearia Perfil" className="border border-white bg-[var(--secondary-color)] rounded-2xl p-1 w-8 h-8 lg:w-16 lg:h-16 lg:rounded-full lg:p-3" />
-                <img src={'/assets/facebook.svg'} alt="Logo da Barbearia Perfil" className="border border-white bg-[var(--secondary-color)] rounded-2xl p-1 w-8 h-8 lg:w-16 lg:h-16 lg:rounded-full lg:p-3" />
+                <img src={`${process.env.PUBLIC_URL}/assets/whatsapp.svg`} alt="Logo da Barbearia Perfil" className="border border-white bg-[var(--secondary-color)] rounded-2xl p-1 w-8 h-8 lg:w-16 lg:h-16 lg:rounded-full lg:p-3" />
+                <img src={`${process.env.PUBLIC_URL}/assets/instagram.svg`} alt="Logo da Barbearia Perfil" className="border border-white bg-[var(--secondary-color)] rounded-2xl p-1 w-8 h-8 lg:w-16 lg:h-16 lg:rounded-full lg:p-3" />
+                <img src={`${process.env.PUBLIC_URL}/assets/facebook.svg`} alt="Logo da Barbearia Perfil" className="border border-white bg-[var(--secondary-color)] rounded-2xl p-1 w-8 h-8 lg:w-16 lg:h-16 lg:rounded-full lg:p-3" />
                 </div>
             </div>
             <div>
-                <img src={'/assets/LogoPerfil.png'} alt="Logo da Barbearia Perfil" className="w-20 h-14 lg:h-20 " /> 
+                <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="w-20 h-14 lg:h-20 " /> 
             </div>
         </footer>
         </main>
