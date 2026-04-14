@@ -10,17 +10,17 @@ function Services() {
                 <div className='w-[45%] flex justify-start'>
                     <button onClick={
                         () => navigate('/Menu')}>
-                        <img  src={'/assets/menuhamburger.svg'} alt="Menu Hamburger" className="h-10"/>
+                        <img  src={`${process.env.PUBLIC_URL}/assets/menuhamburger.svg`} alt="Menu Hamburger" className="h-10"/>
                     </button>
                 </div>    
                     <div className='w-1/2 flex justify-start'>
-                    <img src={'/assets/LogoPerfil.png'} alt="Logo da Barbearia Perfil" className="h-14" />      
+                    <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="h-14" />      
                 </div>
             </header>
             <main>
                 <div className='bg-[var(--secondary-color)] flex items-center justify-start p-4 border-b border-[var(--primary-color)]'>
                     <div>
-                        <img src={'/assets/LogoPerfil.png'} alt="Corte de Cabelo" className='w-20'/>
+                        <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Corte de Cabelo" className='w-20'/>
                     </div>
                     <div className='flex flex-col items-start justify-center gap-2 ml-4'>
                         <label className='text-2xl text-[var(--primary-color)] font-bold'>Corte</label>
@@ -29,7 +29,7 @@ function Services() {
                 </div>
                 <div className='bg-[var(--secondary-color)] flex items-center justify-start p-4 border-b border-[var(--primary-color)]'>
                     <div>
-                        <img src={'/assets/LogoPerfil.png'} alt="Corte de Cabelo" className='w-20'/>
+                        <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Corte de Cabelo" className='w-20'/>
                     </div>
                     <div className='flex flex-col items-start justify-center gap-2 ml-4'>
                         <label className='text-2xl text-[var(--primary-color)] font-bold'>Barba</label>
@@ -38,7 +38,7 @@ function Services() {
                 </div>
                 <div className='bg-[var(--secondary-color)] flex items-center justify-start p-4 border-b border-[var(--primary-color)]'>
                     <div>
-                        <img src={'/assets/LogoPerfil.png'} alt="Corte de Cabelo" className='w-20'/>
+                        <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Corte de Cabelo" className='w-20'/>
                     </div>
                     <div className='flex flex-col items-start justify-center gap-2 ml-4'>
                         <label className='text-2xl text-[var(--primary-color)] font-bold'>Hidratação</label>

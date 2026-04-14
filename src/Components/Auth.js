@@ -9,11 +9,11 @@ function Auth() {
       <header className="bg-[var(--primary-color)] w-full h-20 flex items-center p-4">
         <div className='w-[45%] flex justify-start'>
           <button onClick={() => navigate('/')}>
-            <img src={'/assets/arrowback.svg'} alt="Seta Voltar" className="h-10" />
+            <img src={`${process.env.PUBLIC_URL}/assets/arrowback.svg`} alt="Seta Voltar" className="h-10" />
           </button>
         </div>
         <div className='w-1/2 flex justify-start'>
-          <img src={'/assets/LogoPerfil.png'} alt="Logo da Barbearia Perfil" className="h-14" />      
+          <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="h-14" />      
         </div>
       </header>
       <main className='w-full h-screen flex items-center justify-center'>
