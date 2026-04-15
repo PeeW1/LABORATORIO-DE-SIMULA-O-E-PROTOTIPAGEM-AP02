@@ -5,6 +5,7 @@ import Main from './Components/Main';
 import Menu from './Components/Menu';
 import UserPage from './Components/UserPage';
 import Services from './Components/Services';
+import AdmPage from './Components/AdmPage';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Menu" element={<Menu />} />
         <Route path="/UserPage" element={<UserPage />} />
         <Route path="/Services" element={<Services />} />
+        <Route path="/AdmPage" element={<AdmPage />} />
       </Routes>
     </BrowserRouter>
   );

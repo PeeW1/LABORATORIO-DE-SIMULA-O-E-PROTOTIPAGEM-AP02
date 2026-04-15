@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
-function UserPage() {
+function AdmPage() {
     const navigate = useNavigate();
     return (
         <>
@@ -20,18 +20,17 @@ function UserPage() {
         </header>
         <main className='w-full h-screen flex flex-col py-4'>
             <div className='border-b-2 border-[var(--primary-color)] flex items-center justify-center text-4xl p-4'>
-                <label>Bem-vindo, nome do usuário!</label>
+                <label>Bem-vindo, Administrador!</label>
             </div>
             <div className='w-full h-auto border-b-2 border-[var(--primary-color)] flex flex-col items-center justify-start p-4 gap-4'>
                 <label>Próximos agendamentos:</label>
                 <div className='bg-[var(--primary-color)] px-5 py-2   rounded-2xl'><label className='text-white'>Corte | 10/02 | 09:00 | Guilherme</label></div>
-                <button className='bg-[var(--primary-color)] text-white px-4 py-2 rounded-lg mt-4' onClick={() => navigate('/Services')}>
-                    +
-                </button>
+                <div className='bg-[var(--primary-color)] px-5 py-2   rounded-2xl'><label className='text-white'>Barba | 10/02 | 10:00 | Pedro</label></div>
+                <div className='bg-[var(--primary-color)] px-5 py-2   rounded-2xl'><label className='text-white'>Hidratação | 10/02 | 11:00 | Henrique</label></div>
             </div>
             <div className='w-full h-auto border-b-2 border-[var(--primary-color)] flex flex-col items-center justify-start p-4 gap-4'>
                 <label>Histórico de agendamentos:</label>
-                <div className='bg-[var(--primary-color)] px-5 py-2   rounded-2xl'><label className='text-white'>Corte | 10/01 | 09:00 | Guilherme</label></div>
+                <div className='bg-[var(--primary-color)] px-5 py-2   rounded-2xl'><label className='text-white'>Corte | 10/02 | 09:00 | Guilherme</label></div>
                 <div className='bg-[var(--primary-color)] px-5 py-2   rounded-2xl'><label className='text-white'>Barba | 12/02 | 10:00 | Guilherme</label></div>
                 <div className='bg-[var(--primary-color)] px-5 py-2   rounded-2xl'><label className='text-white'>Corte | 01/03 | 17:00 | Guilherme</label></div>
             </div>
@@ -46,4 +45,4 @@ function UserPage() {
 
 };
 
-export default UserPage;
+export default AdmPage;

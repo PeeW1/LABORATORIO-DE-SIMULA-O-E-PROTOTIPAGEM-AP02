@@ -1,8 +1,11 @@
-import React from 'react';
+import { React, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function Auth() {
   const navigate = useNavigate();
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  console.log(username, password);
   return (
     <>
     <main className='overflow-hidden w-full h-screen flex flex-col'>
@@ -23,11 +26,21 @@ function Auth() {
           </div>
           <div className='flex flex-col gap-1'>
             <label className='text-2xl'>Usuário:</label>
-            <input  className=' text-xl bg-[var(--secondary-color)] p-4 rounded-lg border border-[var(--primary-color)]' ></input>
+            <input  
+            className=' text-xl bg-[var(--secondary-color)] p-4 rounded-lg border border-[var(--primary-color)]' 
+              type="text"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}>
+            </input>
           </div>
           <div className='flex flex-col gap-1'>
             <label className='text-2xl'>Senha:</label  >
-            <input  className='text-xl bg-[var(--secondary-color)] p-4 rounded-lg border border-[var(--primary-color)]'></input>
+            <input  className='text-xl bg-[var(--secondary-color)] p-4 rounded-lg border border-[var(--primary-color)]'
+            type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              >
+              </input>
           </div>
           <div className='w-full  flex justify-center mt-4'>
             <button className='w-1/2 bg-[var(--primary-color)] text-white px-4 py-4 rounded-lg '>Entrar</button>
