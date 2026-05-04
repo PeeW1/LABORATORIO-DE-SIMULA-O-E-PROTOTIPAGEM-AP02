@@ -9,17 +9,20 @@ function Auth() {
   return (
     <>
     <main className='overflow-hidden w-full h-screen flex flex-col'>
-      <header className="bg-[var(--primary-color)] w-full h-20 flex items-center p-4">
-        <div className='w-[45%] flex justify-start'>
+      <header className="bg-[var(--primary-color)] w-full h-20 flex items-center justify-between p-4">
+        <div className=''>
           <button onClick={() => navigate('/')}>
             <img src={`${process.env.PUBLIC_URL}/assets/arrowback.svg`} alt="Seta Voltar" className="h-10" />
           </button>
         </div>
-        <div className='w-1/2 flex justify-start'>
+        <div className=''>
           <button onClick={() => navigate('/')}>
             <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="h-14" />
           </button>    
         </div>
+        <div>
+                <label className='text-transparent'>nada</label>
+            </div>
       </header>
       <main className='w-full h-screen flex items-center justify-center'>
         <div className=' w-full h-auto  m-[15%] flex flex-col gap-5 rounded-lg lg:w-1/4'>

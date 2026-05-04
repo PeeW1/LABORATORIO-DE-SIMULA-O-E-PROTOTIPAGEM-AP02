@@ -7,17 +7,20 @@ function AdmPage() {
     const navigate = useNavigate();
     return (
         <>
-        <header className="bg-[var(--primary-color)] w-full h-20 flex items-center p-4">
-            <div className='w-[45%] flex justify-start'>
+        <header className="bg-[var(--primary-color)] w-full h-20 flex items-center justify-between p-4 ">
+            <div className=''>
                 <button onClick={
                     () => navigate('/')}>
                     <img  src={`${process.env.PUBLIC_URL}/assets/menuhamburger.svg`} alt="Menu Hamburger" className="h-10"/>
                 </button>
             </div>    
-                <div className='w-1/2 flex justify-start'>
+                <div className=''>
                 <button onClick={() => navigate('/')}>  
                     <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="h-14" />
                 </button>    
+            </div>
+            <div>
+                <label className='text-transparent'>nada</label>
             </div>
         </header>
         <main className='w-full h-screen flex flex-col py-4'>
@@ -39,6 +42,11 @@ function AdmPage() {
             <div className='w-full h-auto flex flex-col items-center justify-start p-4 gap-4'>
                 <button className='bg-[var(--primary-color)] text-white px-4 py-2 rounded-lg mt-4' onClick={() => navigate('/')}>
                     Editar Horários
+                </button>
+            </div>
+            <div className='w-full h-auto flex flex-col items-center justify-start p-4 gap-4'>
+                <button className='bg-red-400 text-white px-6 py-4 rounded-lg mt-4' onClick={() => navigate('/')}>
+                    LogOut
                 </button>
             </div>
         </main>

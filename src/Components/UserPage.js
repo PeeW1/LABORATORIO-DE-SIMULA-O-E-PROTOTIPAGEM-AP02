@@ -7,19 +7,21 @@ function UserPage() {
     const navigate = useNavigate();
     return (
         <>
-        <header className="bg-[var(--primary-color)] w-full h-20 flex items-center p-4">
-            <div className='w-[45%] flex justify-start'>
-                <button onClick={
-                    () => navigate('/')}>
-                    <img  src={`${process.env.PUBLIC_URL}/assets/menuhamburger.svg`} alt="Menu Hamburger" className="h-10"/>
-                </button>
-            </div>    
-                <div className='w-1/2 flex justify-start'>
-                <button onClick={() => navigate('/')}>
-                    <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="h-14" />
-                </button>     
+        <header className="bg-[var(--primary-color)] w-full h-20 flex items-center justify-between p-4">
+        <div className=''>
+          <button onClick={() => navigate('/')}>
+            <img src={`${process.env.PUBLIC_URL}/assets/arrowback.svg`} alt="Seta Voltar" className="h-10" />
+          </button>
+        </div>
+        <div className=''>
+          <button onClick={() => navigate('/')}>
+            <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="h-14" />
+          </button>    
+        </div>
+        <div>
+                <label className='text-transparent'>nada</label>
             </div>
-        </header>
+      </header>
         <main className='w-full h-screen flex flex-col py-4'>
             <div className='border-b-2 border-[var(--primary-color)] flex items-center justify-center text-4xl p-4'>
                 <label>Bem-vindo, nome do usuário!</label>
