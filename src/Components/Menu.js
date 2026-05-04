@@ -19,6 +19,11 @@ function Menu() {
         <main className="w-full h-screen flex flex-col items-center justify-start gap-40 bg-[var(--primary-color)]">
             <div className="w-full h-auto m-10 flex flex-col items-center justify-center gap-10">
                 <div className="">
+                    <button onClick={() => navigate('/Auth')}>
+                        <label className="text-2xl text-[var(--text-color)] border-b border-[var(--text-color)]">LOGIN</label>
+                    </button>
+                </div>
+                <div className="">
                     <button onClick={() => navigate('/Services')}>
                         <label className="text-2xl text-[var(--text-color)] border-b border-[var(--text-color)]">SERVIÇOS</label>
                     </button>
@@ -36,7 +41,7 @@ function Menu() {
                 </div>
                 <div>
                     <button onClick={() => navigate('/AdmPage')}>
-                        <label className="text-2xl text-[var(--text-color)] border-b border-[var(--text-color)]">Administrador</label>
+                        <label className="text-2xl text-[var(--text-color)] border-b border-[var(--text-color)]">ADMINISTRADOR</label>
                     </button>
                 </div>
             </div>

@@ -16,11 +16,13 @@ function Auth() {
           </button>
         </div>
         <div className='w-1/2 flex justify-start'>
-          <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="h-14" />      
+          <button onClick={() => navigate('/')}>
+            <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="h-14" />
+          </button>    
         </div>
       </header>
       <main className='w-full h-screen flex items-center justify-center'>
-        <div className=' w-full h-auto  m-[15%] flex flex-col gap-5 rounded-lg'>
+        <div className=' w-full h-auto  m-[15%] flex flex-col gap-5 rounded-lg lg:w-1/4'>
           <div className='w-full flex justify-center'>
             <label className='text-4xl mb-4'>Acesse sua conta</label>
           </div>

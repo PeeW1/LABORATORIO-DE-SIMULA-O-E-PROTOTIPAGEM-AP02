@@ -15,8 +15,8 @@ function Main() {
                 </button>
             </div>
             <div className='hidden lg:flex'>
-                <button className='text-1xl font-bold text-[var(--secondary-color)] transition-transform duration-300 hover:scale-110' onClick={() => navigate('/Services')}>
-                    <label className='text-1xl font-bold text-[var(--primary-color)]' >SERVIÇOS</label>
+                <button className='text-1xl font-bold text-[var(--secondary-color)] transition-transform duration-300 hover:scale-110' onClick={() => navigate('/Auth')}>
+                    <label className='text-1xl font-bold text-[var(--secondary-color)]' >LOGIN</label>
                 </button>
             </div>
             <div className='hidden lg:flex'>
