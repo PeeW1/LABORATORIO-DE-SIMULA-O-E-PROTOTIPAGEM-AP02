@@ -15,7 +15,9 @@ function AdmPage() {
                 </button>
             </div>    
                 <div className='w-1/2 flex justify-start'>
-                <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="h-14" />      
+                <button onClick={() => navigate('/')}>  
+                    <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="h-14" />
+                </button>    
             </div>
         </header>
         <main className='w-full h-screen flex flex-col py-4'>
@@ -30,13 +32,13 @@ function AdmPage() {
             </div>
             <div className='w-full h-auto border-b-2 border-[var(--primary-color)] flex flex-col items-center justify-start p-4 gap-4'>
                 <label>Histórico de agendamentos:</label>
-                <div className='bg-[var(--primary-color)] px-5 py-2   rounded-2xl'><label className='text-white'>Corte | 10/02 | 09:00 | Guilherme</label></div>
-                <div className='bg-[var(--primary-color)] px-5 py-2   rounded-2xl'><label className='text-white'>Barba | 12/02 | 10:00 | Guilherme</label></div>
-                <div className='bg-[var(--primary-color)] px-5 py-2   rounded-2xl'><label className='text-white'>Corte | 01/03 | 17:00 | Guilherme</label></div>
+                <div className='bg-[var(--primary-color)] px-5 py-2   rounded-2xl'><label className='text-white'>Corte | 10/02 | 09:00 | Carlos</label></div>
+                <div className='bg-[var(--primary-color)] px-5 py-2   rounded-2xl'><label className='text-white'>Barba | 10/02 | 10:00 | Marcos</label></div>
+                <div className='bg-[var(--primary-color)] px-5 py-2   rounded-2xl'><label className='text-white'>Corte | 10/02 | 17:00 | Vinicius</label></div>
             </div>
             <div className='w-full h-auto flex flex-col items-center justify-start p-4 gap-4'>
                 <button className='bg-[var(--primary-color)] text-white px-4 py-2 rounded-lg mt-4' onClick={() => navigate('/')}>
-                    Editar Perfil
+                    Editar Horários
                 </button>
             </div>
         </main>

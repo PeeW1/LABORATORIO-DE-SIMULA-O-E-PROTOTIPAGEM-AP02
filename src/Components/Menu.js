@@ -34,6 +34,11 @@ function Menu() {
                         <label className="text-2xl text-[var(--text-color)] border-b border-[var(--text-color)]">EDITAR PERFIL</label>
                     </button>
                 </div>
+                <div>
+                    <button onClick={() => navigate('/AdmPage')}>
+                        <label className="text-2xl text-[var(--text-color)] border-b border-[var(--text-color)]">Administrador</label>
+                    </button>
+                </div>
             </div>
             <div>
                 <a className=" text-2xl text-[var(--text-color)] border-b border-[var(--text-color)]" onClick={() => navigate('/')}>

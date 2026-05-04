@@ -16,6 +16,11 @@ function Main() {
             </div>
             <div className='hidden lg:flex'>
                 <button className='text-1xl font-bold text-[var(--secondary-color)] transition-transform duration-300 hover:scale-110' onClick={() => navigate('/Services')}>
+                    <label className='text-1xl font-bold text-[var(--primary-color)]' >SERVIÇOS</label>
+                </button>
+            </div>
+            <div className='hidden lg:flex'>
+                <button className='text-1xl font-bold text-[var(--secondary-color)] transition-transform duration-300 hover:scale-110' onClick={() => navigate('/Services')}>
                     <label className='text-1xl font-bold text-[var(--secondary-color)]' >SERVIÇOS</label>
                 </button>
             </div>
@@ -38,7 +43,12 @@ function Main() {
                 <button className='text-1xl font-bold text-[var(--secondary-color)] transition-transform duration-300 hover:scale-110' onClick={() => navigate('/UserPage')}>
                     <label>EDITAR PERFIL</label>
                 </button>
-            </div> 
+            </div>
+            <div className='hidden lg:flex'> 
+                <button className='text-1xl font-bold text-[var(--secondary-color)] transition-transform duration-300 hover:scale-110' onClick={() => navigate('/AdmPage')}>
+                    <label>ADMINISTRADOR</label>
+                </button>
+            </div>  
         </header>
         <main className='w-full h-screen'>
             <div className= "w-full h-80  bg-cover bg-center flex items-center justify-start lg:h-[80vh]" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/main-bg.jpg')`}}>

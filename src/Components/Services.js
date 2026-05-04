@@ -14,7 +14,9 @@ function Services() {
                     </button>
                 </div>    
                     <div className='w-1/2 flex justify-start'>
-                    <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="h-14" />      
+                    <button onClick={() => navigate('/')}>
+                    <img src={`${process.env.PUBLIC_URL}/assets/LogoPerfil.png`} alt="Logo da Barbearia Perfil" className="h-14" />
+                    </button>      
                 </div>
             </header>
             <main>
